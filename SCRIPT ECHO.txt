@@ -1,4 +1,4 @@
-[_this,0.05] spawn { _veh = _this select 0; _timer = _this select 1;
+[_this,60] spawn { _veh = _this select 0; _timer = _this select 1;
 While {alive _veh} do {
 if(isEngineOn _veh) then { _veh setFuel (fuel _veh - 0.05); if(fuel _veh < 0.45) then {hint parseText "<t size='2.0'>LOW FUEL ALARM</t>"}; if(fuel _veh < 0.25) then {titleText ["<t color='#ff0000' size='5'>LOW FUEL ALARM</t>", "PLAIN", 0.1, true, true];};sleep _timer; };
 };};
