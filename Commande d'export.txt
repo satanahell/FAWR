@@ -1,0 +1,1 @@
+[east, "La FAWR a fini cette OP", "Salamandre"] call ocap_fnc_exportData;
