@@ -1,0 +1,5 @@
+Ajouter cette ligne dans votre init.sqf			execVM "R3F_LOG\init.sqf";
+Ajouter cette ligne dans votre description.ext		#include "R3F_LOG\desc_include.h" 
+
+
+Usine sans limitation de crédit : 		nul = [this] execVM "R3F_LOG\USER_FUNCT\init_creation_factory.sqf";
